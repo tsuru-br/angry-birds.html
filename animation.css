@@ -1,0 +1,29 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.box img {
+	width: 100px;
+	height: 100px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 400px;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	align-items: center;
+}
